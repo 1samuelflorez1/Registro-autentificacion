@@ -1,0 +1,68 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkblue;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+
+/* Forms */
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+}
+
+.form-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bienvenido {
+  background: #fff;
+  padding: 130px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
